@@ -19,7 +19,6 @@ The program also checks whether the sensor reading has failed before displaying 
 
 * Arduino Uno
 * DHT11 Temperature and Humidity Sensor
-* Breadboard
 * Jumper wires
 * USB cable
 * Computer with Arduino IDE
@@ -43,7 +42,7 @@ The program also checks whether the sensor reading has failed before displaying 
 3. The program checks whether the reading is valid.
 4. Temperature and humidity values are sent through Serial Communication.
 5. The results are shown on the Arduino Serial Monitor.
-6. A new reading is taken every two seconds.
+6. A new reading is taken after every 2 seconds.
 
 ## Arduino Code
 
@@ -125,7 +124,6 @@ I would like to improve this project by adding:
 
 * LCD or OLED display
 * Multiple environmental sensors
-* Data logging
 * ESP32 Wi-Fi support
 * Web dashboard
 * Temperature and humidity graphs
